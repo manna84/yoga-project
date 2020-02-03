@@ -10,6 +10,9 @@
     --max-wid: 1200px;
     --hd-col: #fff;
     --max-wid: 75em;
+    --marg-art: 2em;
+    --box-pad:5%;
+    --line-ht:145%;
 }
 
 * {
@@ -30,6 +33,10 @@ body {
 .row {
     max-width: var(--max-wid);
     margin: 0 auto;
+}
+
+section {
+    padding: 2.5em 0;
 }
 
 
@@ -78,4 +85,47 @@ h1 {
     letter-spacing: .125em;
 }
 
+/*---About YOGA---*/
 
+.yoga-history {
+    display: flex;
+    align-content: flex-end;
+    margin-bottom: var(--marg-art);
+}
+
+.yoga-history img {
+    height: 15em;
+    box-shadow: 1em 1em #DFEAF4;
+}
+
+.yoga-history p {
+    padding: 4em 4em 4em 0;
+    line-height: var(--line-ht);
+    text-align:justify;
+
+}
+
+.yoga-meaning p {
+    padding: 4em 0em 4em 4em;
+    line-height: var(--line-ht);
+    text-align:justify;
+}
+
+.yoga-meaning {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: var(--marg-art);
+}
+
+.yoga-meaning img {
+    height: 15em;
+    box-shadow: 1em 1em #CFCAD6;
+}
+
+.yoga-practise {
+    text-align: center;
+    margin-top: 4em;
+    border: .125em solid #555;
+    padding: var(--pad-al);
+    border-radius: 6.25em;
+}

@@ -1,18 +1,81 @@
+/*----BASIC SETTING----*/
+
 :root {
     --font-col:#555;
     --font-typ: 'lato','helvetica','ariel','sans-serif';
+    --font-sz: 1.25em;
     --bg-col: #fff;
     --pad-al: 1em;
-    --lin-ht:1.5em;
+    --lin-ht: 1.5em;
+    --max-wid: 1200px;
+    --hd-col: #fff;
+    --max-wid: 75em;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     background-color: var(--bg-col);
     font-family: var(--font-typ);
     font-weight: 300;
-
+    font-size: var(--font-sz);
 }
+
+/*---BOXES---*/
+
+.row {
+    max-width: var(--max-wid);
+    margin: 0 auto;
+}
+
+
+/*---Main Header---*/
 
 header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(img/woman-with-arms-outstretched-against-blue-sky-317155.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.main-text-box {
+    position: absolute;
+    top: 15em;
+   left: 30em;
+    text-align: right;
+    color: var(--hd-col);
+    text-transform: uppercase;
+}
+
+.main-text-box img {
+    border-radius: 12.5em;
+    height: 5em;
+    margin-bottom: .25em;
+}
+
+time {
+    display: block;
+}
+
+.main-logo {
+    height: 3.5em;
+    width: auto;
+    margin-top: .625em
 
 }
+
+/*---HEADINGS---*/
+
+h1 {
+    font-size: 4em;
+    font-weight: 100;
+    text-transform: uppercase;
+    word-spacing: .25em;
+    letter-spacing: .125em;
+}
+
+

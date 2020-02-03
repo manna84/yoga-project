@@ -36,7 +36,7 @@ body {
 }
 
 section {
-    padding: 2.5em 0;
+    padding: 3.75em 0;
 }
 
 
@@ -77,12 +77,32 @@ time {
 
 /*---HEADINGS---*/
 
+h1,
+h2 {
+    text-transform: uppercase;
+    word-spacing: .25em;
+}
+
 h1 {
     font-size: 4em;
     font-weight: 100;
-    text-transform: uppercase;
-    word-spacing: .25em;
     letter-spacing: .125em;
+
+}
+
+h2 {
+    font-weight: 300;
+    text-align: center;
+    border-bottom: .125em solid #E9B2BC;
+    padding-bottom: .3em;
+}
+
+h2:after {
+    display: block;
+    clear: both;
+    content: "";
+    height: .125em;
+    width: auto;
 }
 
 /*---About YOGA---*/

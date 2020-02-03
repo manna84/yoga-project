@@ -1,3 +1,18 @@
+:root {
+    --font-col:#555;
+    --font-typ: 'lato','helvetica','ariel','sans-serif';
+    --bg-col: #fff;
+    --pad-al: 1em;
+    --lin-ht:1.5em;
+}
+
 body {
-    font-family: 'lato';
+    background-color: var(--bg-col);
+    font-family: var(--font-typ);
+    font-weight: 300;
+
+}
+
+header {
+
 }

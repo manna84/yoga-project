@@ -12,7 +12,7 @@
     --marg-art: 2em;
     --box-pad:5%;
     --line-ht:145%;
-    --brd-col: #E9B2BC
+    --brd-col: #E9B2BC;
 }
 
 * {
@@ -39,7 +39,9 @@ section {
     padding: 2.5em 0;
 }
 
-
+p {
+    line-height: var(--line-ht);
+}
 
 
 /*---HEADINGS---*/
@@ -131,14 +133,12 @@ time {
 
 .yoga-history p {
     padding: 4em 4em 4em 0;
-    line-height: var(--line-ht);
     text-align:justify;
 
 }
 
 .yoga-meaning p {
     padding: 4em 0em 4em 4em;
-    line-height: var(--line-ht);
     text-align:justify;
 }
 
@@ -164,6 +164,12 @@ time {
 /*---BENEFITS---*/
 
 .section-benefits article p {
-    margin-top: 2.5em;
+    margin-top: 2.2em;
 }
 
+blockquote {
+    margin-top: 2.5em;
+}
+.section-benefits img {
+    height: 15em;
+}

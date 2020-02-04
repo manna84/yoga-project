@@ -173,3 +173,28 @@ blockquote {
 .section-benefits img {
     height: 15em;
 }
+
+/*---ABOUT---*/
+
+
+/*---STORIES---*/
+
+.section-stories img {
+    height: 15em;
+}
+
+footer {
+    background-color: rgb(114, 105, 105);
+    padding: var(--box-pad);
+}
+
+footer img {
+    height: 2em;
+    
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    margin-right: 2em;
+}

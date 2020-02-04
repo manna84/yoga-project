@@ -165,11 +165,19 @@ time {
 
 .section-benefits article p {
     margin-top: 2.2em;
+    text-align: justify;
+
 }
 
 blockquote {
     margin-top: 2.5em;
+    text-align: center;
 }
+
+cite {
+    display: block;
+}
+
 .section-benefits img {
     height: auto;
     display: block;
@@ -179,12 +187,18 @@ blockquote {
 
 /*---ABOUT---*/
 
+.section-about article p {
+    margin: 2.2em 0;
+    text-align: justify;
+}
 
 /*---STORIES---*/
 
 .section-stories img {
     height: 15em;
 }
+
+/*---FOOTER---*/
 
 footer {
     background-color: rgb(114, 105, 105);

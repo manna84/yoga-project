@@ -7,12 +7,12 @@
     --bg-col: #fff;
     --pad-al: 1em;
     --lin-ht: 1.5em;
-    --max-wid: 1200px;
     --hd-col: #fff;
-    --max-wid: 75em;
+    --max-wid: 71.250em;
     --marg-art: 2em;
     --box-pad:5%;
     --line-ht:145%;
+    --brd-col: #E9B2BC
 }
 
 * {
@@ -31,49 +31,16 @@ body {
 /*---BOXES---*/
 
 .row {
-    max-width: var(--max-wid);
+    max-width: 1140px;
     margin: 0 auto;
 }
 
 section {
-    padding: 3.75em 0;
+    padding: 2.5em 0;
 }
 
 
-/*---Main Header---*/
 
-header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(img/woman-with-arms-outstretched-against-blue-sky-317155.jpg);
-    height: 100vh;
-    background-position: center;
-    background-size: cover;
-}
-
-.main-text-box {
-    position: absolute;
-    top: 15em;
-   left: 30em;
-    text-align: right;
-    color: var(--hd-col);
-    text-transform: uppercase;
-}
-
-.main-text-box img {
-    border-radius: 12.5em;
-    height: 5em;
-    margin-bottom: .25em;
-}
-
-time {
-    display: block;
-}
-
-.main-logo {
-    height: 3.5em;
-    width: auto;
-    margin-top: .625em
-
-}
 
 /*---HEADINGS---*/
 
@@ -84,7 +51,7 @@ h2 {
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 2.9em;
     font-weight: 100;
     letter-spacing: .125em;
 
@@ -93,16 +60,60 @@ h1 {
 h2 {
     font-weight: 300;
     text-align: center;
-    border-bottom: .125em solid #E9B2BC;
-    padding-bottom: .3em;
 }
 
 h2:after {
     display: block;
-    clear: both;
-    content: "";
     height: .125em;
+    background-color: var(--brd-col);
+    content: " ";
+    width: 15em;
+    margin: 0 auto;
+    margin-top: .5em;
+}
+
+/*---Main Header---*/
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(img/woman-with-arms-outstretched-against-blue-sky-317155.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.main-text-box {
+    position: absolute;
+    top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+    text-align: right;
+    color: var(--hd-col);
+    text-transform: uppercase;
+}
+
+.main-text-box img {
+    border-radius: 12.5em;
+    height: 2.5em;
+    margin-bottom: .25em;
+}
+
+.main-text-box q {
+    font-size: .8em;
+    text-transform: capitalize;
+}
+
+time {
+    display: block;
+    font-size: .8em;
+    text-transform: capitalize;
+    margin-top: .3em;
+}
+
+.main-logo {
+    height: 3.5em;
     width: auto;
+    margin-top: .625em
 }
 
 /*---About YOGA---*/
@@ -145,7 +156,14 @@ h2:after {
 .yoga-practise {
     text-align: center;
     margin-top: 4em;
-    border: .125em solid #555;
-    padding: var(--pad-al);
+    border: .125em solid var(--brd-col);
+    padding: 2em;
     border-radius: 6.25em;
 }
+
+/*---BENEFITS---*/
+
+.section-benefits article p {
+    margin-top: 2.5em;
+}
+

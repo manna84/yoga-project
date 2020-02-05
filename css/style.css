@@ -194,19 +194,46 @@ cite {
 
 /*---STORIES---*/
 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 2.5em;
+    justify-content: space-between
+}
 
+.story-image img {
+    height: 10em;
+}
 
+.box {
+    border: .125em solid #555;
+}
+
+.box div {
+    align-content: center;
+    text-align: center;
+    margin: 1em;
+}
+
+.btn {
+    text-decoration: none;
+    border: .125em solid #ff9300;
+    border-radius: 200px;
+    padding: 2% 5%;
+    background-color: #ff9300;
+    color: var(--hd-col);
+}
 
 /*---FOOTER---*/
 
 footer {
     background-color: rgb(114, 105, 105);
     padding: var(--box-pad);
+    margin-top: 2.5em;
 }
 
 footer img {
     height: 2em;
-    
 }
 
 footer ul {

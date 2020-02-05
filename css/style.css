@@ -13,6 +13,7 @@
     --box-pad:5%;
     --line-ht:145%;
     --brd-col: #E9B2BC;
+    --sec-col: #f4f4f4;
 }
 
 * {
@@ -163,6 +164,10 @@ time {
 
 /*---BENEFITS---*/
 
+.section-benefits {
+    background-color: var(--sec-col);
+}
+
 .section-benefits article p {
     margin-top: 2.2em;
     text-align: justify;
@@ -193,6 +198,10 @@ cite {
 }
 
 /*---STORIES---*/
+
+.section-stories {
+    background-color: var(--sec-col);
+}
 
 .grid-container {
     display: grid;

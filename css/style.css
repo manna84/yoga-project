@@ -183,7 +183,7 @@ cite {
     display: block;
 }
 
-.section-benefits img {
+.middle-image {
     height: auto;
     display: block;
     width: 50%;
@@ -196,6 +196,15 @@ cite {
     margin: 2.2em 0;
     text-align: justify;
 }
+
+.middle-image {
+      height: auto;
+    display: block;
+    width: 50%;
+    margin: 1em auto 0   auto;
+}
+
+
 
 /*---STORIES---*/
 

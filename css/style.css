@@ -194,22 +194,8 @@ cite {
 
 /*---STORIES---*/
 
-.section-stories img {
-    width: 10em;
-}
 
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-}
 
-.box {
-    border: .125em solid var(--brd-col);
-}
-
-.box h3 {
-    text-align: center;
-}
 
 /*---FOOTER---*/
 
